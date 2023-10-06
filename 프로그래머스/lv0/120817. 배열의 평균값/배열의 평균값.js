@@ -6,7 +6,5 @@ function solution(numbers) {
         //console.log(numbers[i]);
     }
     //console.log(result);
-    let answer = result/numbers.length;
-    //console.log(answer);
-    return answer;
+    return result/numbers.length;
 }
