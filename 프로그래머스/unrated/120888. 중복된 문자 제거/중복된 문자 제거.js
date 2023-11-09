@@ -1,4 +1,3 @@
 function solution(my_string) {
-    const str = my_string.split("");
-    return [...new Set(str)].join("")
+    return [...new Set(my_string.split(""))].join("")
 }
