@@ -4,15 +4,16 @@ function solution(n) {
     for (let i = 1; i<=n; i++){
         for (let e = 1; e<=i; e++){
             if (i%e === 0) {
-            result.push(e);
+                result.push(e);
             }
         }
         if(result.length < 3){
-        result = [];
+            result = [];
         }
         if(result.length >= 3){
             answer.push(i);
             result = [];
         }
-    }return answer.length;
+    }
+    return answer.length;
 }
