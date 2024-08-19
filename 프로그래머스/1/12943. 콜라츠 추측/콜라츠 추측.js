@@ -3,12 +3,12 @@ function solution(num) {
     if (num === 1){
         return 0;
     }
-    for(let i = 1; number >= 1; i++){
+    for(let i = 0; number >= 1; i++){
         if (number === 1){
             if(i>500){
                 return -1;
             }
-            return i-1;
+            return i;
         }
         if (number%2 === 0){
             console.log(i);
